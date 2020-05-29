@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Timer</title>
+
+
+		<script src="../pluginBase.js"></script>
+		<script src="timer.js"></script>
+
+	</head>
+	<body class='body'>
+		<div>
+			<form name="clockform">
+				<p>
+					<p id="markerSum" >Всего: 00:00:00</p>
+					<input name="clock" size="12" maxlength="12" value="00:00:00.00">
+					<input name="starter" type="button" value="Старт  /  Стоп" onclick="findTIME()">
+					<br><br>
+					<input name="label" size="12" maxlength="40" placeholder="Укажите заявку">
+					<input name="clearer" type="button" value="Сбросить всё" onclick="clearALL()">
+					</p>
+				<p id="marker"></p>
+			</form>
+		</div>		
+	</body>
+</html>
